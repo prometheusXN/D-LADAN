@@ -7,10 +7,10 @@ Through the analysis of the problem, we conflate the posterior confusing law art
 The main 
 
 ## Introduction
+We refactored [LADAN](https://github.com/prometheusXN/LADAN) based on the **Tensorflow2.x**, and built this project.
 
 ## Data Rreparation
 
 ## Usage
-
-Basic requirements for all the libraries are in the `requirements.txt`.
+Basic requirements for all the libraries are in the `requirements.txt`. 
 
