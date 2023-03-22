@@ -9,7 +9,7 @@ The main
 ## Introduction
 We refactored [LADAN](https://github.com/prometheusXN/LADAN) based on the **Tensorflow2.x**, and built this project.
 
-## Data Rreparation
+## Data Processing
 
 ## Usage
 Basic requirements for all the libraries are in the `requirements.txt`. 
