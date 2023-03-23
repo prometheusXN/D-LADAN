@@ -13,6 +13,7 @@ We refactored [LADAN](https://github.com/prometheusXN/LADAN) based on the **Tens
 Here, we briefly described the structure of the project and the functionality of each subfolder, as follow:
 
 ```
+Config			// [important] the config of our D-LADAN and some baselines
 data
 ├── candidates                       
 │   ├── candidates1.zip			// [important] candidate zipfile 1(for query 1-50)
