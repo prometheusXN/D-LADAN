@@ -4,7 +4,7 @@ The source code of article "**Distinguish Confusion in Legal Judgment Prediction
 In this version, we consider the **confusing law article (or charge) problem** from both prior and posterior perspectives.
 Through the analysis of the problem, we conflate the posterior confusing law article (or charge) problem and the data imbalance problem together and make further improvements to our conference model, [LADAN](https://github.com/prometheusXN/LADAN).
 
-The main 
+Compared with *LADAN*, our main improvement in this work is the proposed **revised memory mechanism**, which senses the posterior similarity relationships between law articles (or charges)
 
 ## Introduction
 We refactored [LADAN](https://github.com/prometheusXN/LADAN) based on the **Tensorflow2.x**, and built this project.
