@@ -8,10 +8,33 @@ Compared with *LADAN*, our main improvement in this work is the proposed momentu
 
 ![image](https://github.com/prometheusXN/D-LADAN/blob/main/fig/Framework%20of%20D_Ladan.jpg)
 
-
-
 ## Introduction
 We refactored [LADAN](https://github.com/prometheusXN/LADAN) based on the **Tensorflow2.x**, and built this project.
+Here, we briefly described the structure of the project and the functionality of each subfolder, as follow:
+
+```
+data
+├── candidates                       
+│   ├── candidates1.zip			// [important] candidate zipfile 1(for query 1-50)
+│   └── candidates2.zip			// [important] candidate zipfile 2(for query 51-107)
+├── corpus
+│   ├── common_charge.json
+│   ├── controversial_charge.json
+│   └── document_path.json		// corpus document path file
+├── label
+│   └── label_top30.json		// [important] labels of top 30-relevant candidates, the rest unlabelled candidates are irrelevant (or label=0)
+├── others
+│   ├── criminal charges.txt		// list of all Chinese criminal charges
+│   └── stopword.txt
+├── prediction				// candidate pooling results using different methods
+│   ├── bert.json
+│   ├── bm25_top100.json
+│   ├── combined_top100.json		// overall candidate list
+│   ├── lm_top100.json
+│   └── tfidf_top100.json
+└── query
+    └── query.json			// [important] overall query file
+```
 
 ## Data Processing
 
