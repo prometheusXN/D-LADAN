@@ -14,16 +14,24 @@ Here, we briefly described the structure of the project and the functionality of
 
 ```
 Config			// [important] the config of our D-LADAN and some baselines
-Model_component // [important] the model components that make up the various models.
-├── Ladan_component.py //[important] the main component of LADAN model.
-├── Ladan_ppk_component_Criminal.py // main LADAN component for the criminal datasets.
-├── Ladan_ppk_component.py //[important] the main component of of the D-LADAN model.
+Model_component     // [important] the model components that make up the various models.
+├── Ladan_component.py      //[important] the main component of LADAN model.
+├── Ladan_ppk_component_Criminal.py     // main LADAN component for the criminal datasets.
+├── Ladan_ppk_component.py      //[important] the main component of of the D-LADAN model.
 └── Ladanppk_component_Criminal.py 
-Model // [important] the keras model for various models.
-├── LADAN_model.py //[important] the Tensorflow 2.x version of the full LADAN+MTL model.
+Model     // [important] the keras model for various models.
+├── LADAN_model.py      //[important] the Tensorflow 2.x version of the full LADAN+MTL model.
 ├── LADAN_model_C.py
-├── DLADAN_model.py  //[important] the Tensorflow 2.x version of the full D-LADAN(+MTL, TOPJUDGE, MPBFN) model.
-├── DLADAN_model_C.py
+├── DLADAN_model.py     //[important] the Tensorflow 2.x version of the full D-LADAN(+MTL, TOPJUDGE, MPBFN) model.
+└── DLADAN_model_C.py
+train     // [important] the train code for the corresponding models.
+├── train_LADAN.py      // [important] the training code of LADAN+MTL model.
+├── train_LADAN_C.py
+├── train_DLADAN.py      // [important] the training code of D-LADAN model.
+└── train_DLADAN_C.py 
+
+utils     // some util functions used in our opject.
+
 ```
 
 ## Data Processing
