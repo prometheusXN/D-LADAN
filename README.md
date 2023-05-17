@@ -14,27 +14,16 @@ Here, we briefly described the structure of the project and the functionality of
 
 ```
 Config			// [important] the config of our D-LADAN and some baselines
-data
-├── candidates                       
-│   ├── candidates1.zip			// [important] candidate zipfile 1(for query 1-50)
-│   └── candidates2.zip			// [important] candidate zipfile 2(for query 51-107)
-├── corpus
-│   ├── common_charge.json
-│   ├── controversial_charge.json
-│   └── document_path.json		// corpus document path file
-├── label
-│   └── label_top30.json		// [important] labels of top 30-relevant candidates, the rest unlabelled candidates are irrelevant (or label=0)
-├── others
-│   ├── criminal charges.txt		// list of all Chinese criminal charges
-│   └── stopword.txt
-├── prediction				// candidate pooling results using different methods
-│   ├── bert.json
-│   ├── bm25_top100.json
-│   ├── combined_top100.json		// overall candidate list
-│   ├── lm_top100.json
-│   └── tfidf_top100.json
-└── query
-    └── query.json			// [important] overall query file
+Model_component // [important] the model components that make up the various models.
+├── Ladan_component.py //[important] the main component of LADAN model.
+├── Ladan_ppk_component_Criminal.py // main LADAN component for the criminal datasets.
+├── Ladan_ppk_component.py //[important] the main component of of the D-LADAN model.
+└── Ladanppk_component_Criminal.py 
+Model // [important] the keras model for various models.
+├── LADAN_model.py //[important] the Tensorflow 2.x version of the full LADAN+MTL model.
+├── LADAN_model_C.py
+├── DLADAN_model.py  //[important] the Tensorflow 2.x version of the full D-LADAN(+MTL, TOPJUDGE, MPBFN) model.
+├── DLADAN_model_C.py
 ```
 
 ## Data Processing
