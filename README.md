@@ -35,10 +35,9 @@ utils     // some util functions used in our opject.
 ```
 
 ## Data Processing
+For training, you should generate the input data format and put them into the "__processed_dataset__" folder.
+
+You can download our processed dataset from out Google Driver: [**processed dataset (for D-LADAN)**](https://drive.google.com/file/d/1-YRQ0bVok62ToHX2Fu0y8QIDygWxSbQ8/view?usp=share_link).
 
 ## Usage
 Basic requirements for all the libraries are in the `requirements.txt`. 
-
-For training, you should generate the input data format and put them into the "__processed_dataset__" folder.
-
-You can download our processed dataset from out Google Driver: [**processed dataset (for D-LADAN)**](https://drive.google.com/file/d/1-YRQ0bVok62ToHX2Fu0y8QIDygWxSbQ8/view?usp=share_link)
