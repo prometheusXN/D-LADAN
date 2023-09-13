@@ -11,9 +11,8 @@ Compared with *LADAN*, our main improvement in this work is the proposed momentu
 ## Introduction
 We refactored [LADAN](https://github.com/prometheusXN/LADAN) based on the **Tensorflow2.x**, and built this project.
 
-```
-new word2vec files: [cail_thulac_new]([https://github.com/prometheusXN/LADAN](https://drive.google.com/file/d/1UJZUplgxeIGlLoiRz_iFzRtcTW-86TPJ/view?usp=sharing))
-```
+* new word2vec files: [cail_thulac_new]([https://github.com/prometheusXN/LADAN](https://drive.google.com/file/d/1UJZUplgxeIGlLoiRz_iFzRtcTW-86TPJ/view?usp=sharing))
+
 
 Here, we briefly describe the structure of the project and the functionality of each subfolder, as follows:
 
