@@ -1,7 +1,7 @@
 # D-LADAN (under construction) 
 The source code of the article "**Distinguish Confusion in Legal Judgment Prediction via Revised Relation Knowledge of Law Articles**", TOIS. It is the revised journal version of the article ''*Distinguish Confusing Law Articles for Legal Judgment Prediction*'', ACL 2020.
 
-In this version, we consider the **confusing law article (or charge) problem** from both prior and posterior perspectives.
+This version considers the **confusing law article (or charge) problem** from both prior and posterior perspectives.
 Through the analysis of the problem, we conflate the posterior confusing law article (or charge) problem and the data imbalance problem together and make further improvements to our conference model: [**LADAN**](https://github.com/prometheusXN/LADAN).
 
 Compared with *LADAN*, our main improvement in this work is the proposed momentum-updated **revised memory mechanism**, which dynamically senses the posterior similarity relationships between law articles (or charges) learned by the model during the training process. Besides, a combined **weighted graph distillation operation** (GDO) is proposed to adaptively capture the distinguishable features from such a post-hoc similarity graph structure. So far, **D-LADAN** can correct the negative bias caused by the data imbalance problem and accurately extract the differences between law articles (or charges) to distinguish them. The overall framework of D-LADAN is as follows:
@@ -18,7 +18,7 @@ Here, we briefly describe the structure of the project and the functionality of 
 
 ```
 Config			// [important] the config of our D-LADAN and some baselines
-Model_component     // [important] the model components that make up the various models.
+Model_component     // [important] the components that comprise the various models.
 ├── Ladan_component.py      //[important] the main component of the LADAN model.
 ├── Ladan_ppk_component_Criminal.py     // main LADAN component for the criminal datasets.
 ├── Ladan_ppk_component.py      //[important] the main component of the D-LADAN model.
@@ -50,4 +50,7 @@ The basic requirements for all the libraries are in the `requirements.txt`.
 There are many recent works comparing the models that have a PLM backbone with our work to verify their effectiveness.
 We complain that such a comparison is unfair and does not directly prove the superiority of their frameworks, due to the inherent performance differences between the simple backbones (e.g., CNN, RNN, and LSTM) and the PLM-like backbone (e.g., BERT, Lawformer, and so on).
 Thus, we'll implement BERT versions of LADAN and D-LADAN later.
-We call for an objective and fair comparison between methods, so as to further advance the development of the industry.
+We call for an objective and fair comparison between methods, to further advance the development of the industry.
+
+## Bert_Ladan
+Now we have implemented BERT versions of D-LADAN, refer to the folder: [**Bert_Ladan**](https://github.com/prometheusXN/D-LADAN/tree/main/Bert_Ladan).
