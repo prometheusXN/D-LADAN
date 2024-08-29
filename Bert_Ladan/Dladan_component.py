@@ -128,8 +128,8 @@ class dLadan_full(nn.Module):
             # cls_emb = self.emb_dropout(cls_emb)# pooler_output
             return cls_emb, last_hidden_states
     
-    def get_basic_embedding(self, input_ids:torch.Tensor, attention_mask:torch.Tensor,
-                            token_type_ids:torch.Tensor, max_length):
+    def get_basic_embedding(self, input_ids: torch.Tensor, attention_mask: torch.Tensor,
+                            token_type_ids: torch.Tensor, max_length):
         """
         Args:
             input_ids (_type_): [batch_size, ]
