@@ -3,3 +3,10 @@ To fairly compare with the related works involving the pre-train language mode(P
 
 ## Introduction
 We constructed a Transformer version of D-LADAN and LADAN based on the **Pytorch** and built this project here.
+
+Here, we briefly describe the structure of the project and the functionality of some important subfolder, as follows:
+
+```
+load_dataset    // [important] the code to generate the data form.
+├── CAIL_dataset_full_chinese.py  // the code for CAIL dataset.
+├── Criminal_dataset.py    // the code fot Criminal dataset.
