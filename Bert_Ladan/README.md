@@ -12,6 +12,13 @@ load_dataset    // [important] the code to generate the data form.
 ├── Criminal_dataset.py    // the code for Criminal dataset.
 Formatters    // [important] Convert the data to the input format of model.
 ├── SentenceLevelFormatter.py
-Dataloaders    // [important] 
+Dataloaders    // [important] the Dataloader of torch
 ├── DLADAN_CAIL_loader.py
 ├── DLADAN_Criminal_loader.py
+DLADAN_bert.py ──├── The whole framework of DLADAN (and LADAN) model.
+LADAN_bert.py  ──├ 
+Dladan_component.py ──├── Body part of the corresponding model.
+Ladan_component.py  ──├ 
+train_DLADAN_C.py  ──────────────────├── The train code.
+train_DLADAN_full_chinese.py       ──├
+train_DLADAN_full_chinese_large.py ──├
