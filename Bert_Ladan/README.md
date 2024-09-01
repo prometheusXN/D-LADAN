@@ -9,4 +9,9 @@ Here, we briefly describe the structure of the project and the functionality of 
 ```
 load_dataset    // [important] the code to generate the data form.
 ├── CAIL_dataset_full_chinese.py  // the code for CAIL dataset.
-├── Criminal_dataset.py    // the code fot Criminal dataset.
+├── Criminal_dataset.py    // the code for Criminal dataset.
+Formatters    // [important] Convert the data to the input format of model.
+├── SentenceLevelFormatter.py
+Dataloaders    // [important] 
+├── DLADAN_CAIL_loader.py
+├── DLADAN_Criminal_loader.py
