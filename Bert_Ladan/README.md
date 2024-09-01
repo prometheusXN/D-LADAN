@@ -19,6 +19,6 @@ DLADAN_bert.py ──├── The whole framework of DLADAN (and LADAN) model.
 LADAN_bert.py  ──├ 
 Dladan_component.py ──├── Body part of the corresponding model.
 Ladan_component.py  ──├ 
-train_DLADAN_C.py  ──────────────────├── The code of model training
+train_DLADAN_C.py  ──────────────────├── The code of model training.
 train_DLADAN_full_chinese.py       ──├
 train_DLADAN_full_chinese_large.py ──├
