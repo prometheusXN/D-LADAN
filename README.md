@@ -53,4 +53,4 @@ Thus, we'll implement BERT versions of LADAN and D-LADAN later.
 We call for an objective and fair comparison between methods, to further advance the development of the industry.
 
 ## Bert_Ladan
-Now we have implemented BERT versions of D-LADAN, refer to the folder: [**Bert_Ladan**](https://github.com/prometheusXN/D-LADAN/tree/main/Bert_Ladan).
+Now we have implemented BERT versions of D-LADAN and LADAN, refer to the folder: [**Bert_Ladan**](https://github.com/prometheusXN/D-LADAN/tree/main/Bert_Ladan).
