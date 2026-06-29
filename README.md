@@ -46,6 +46,13 @@ You can download our processed dataset from our Google Driver: [**processed data
 ## Usage
 The basic requirements for all the libraries are in the `requirements.txt`. 
 
+  cd train
+  python train_LADAN.py
+
+or
+
+  python train_DLADAN.py
+
 ## Future Work
 There are many recent works comparing the models that have a PLM backbone with our work to verify their effectiveness.
 We complain that such a comparison is unfair and does not directly prove the superiority of their frameworks, due to the inherent performance differences between the simple backbones (e.g., CNN, RNN, and LSTM) and the PLM-like backbone (e.g., BERT, Lawformer, and so on).
