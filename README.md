@@ -44,14 +44,14 @@ For training, you should generate the input data format and put them into the "_
 You can download our processed dataset from our Google Driver: [**processed dataset (for D-LADAN)**](https://drive.google.com/file/d/1-YRQ0bVok62ToHX2Fu0y8QIDygWxSbQ8/view?usp=share_link).
 
 ## Usage
-The basic requirements for all the libraries are in the `requirements.txt`. 
+The basic requirements for all the libraries are in the `requirements.txt`. <br>
 
-  cd train
-  python train_LADAN.py
+	cd train
+	python train_LADAN.py
 
-or
+or <br>
 
-  python train_DLADAN.py
+	python train_DLADAN.py
 
 ## Future Work
 There are many recent works comparing the models that have a PLM backbone with our work to verify their effectiveness.
