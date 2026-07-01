@@ -1,4 +1,4 @@
-# D-LADAN (under construction) 
+# D-LADAN
 The source code of the article "**Distinguish Confusion in Legal Judgment Prediction via Revised Relation Knowledge of Law Articles**", TOIS. It is the revised journal version of the article ''*Distinguish Confusing Law Articles for Legal Judgment Prediction*'', ACL 2020.
 
 This version considers the **confusing law article (or charge) problem** from both prior and posterior perspectives.
